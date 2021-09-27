@@ -4,7 +4,7 @@ import { registerApplication, start } from "single-spa";
 //for the form info to pass between apps/micro-frontends
 let loanAppData = {};
 
-//setter
+//setter/getters to save local state
 const setLoanAppData = (data) => {
   loanAppData = data;
 }
